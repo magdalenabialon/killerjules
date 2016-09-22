@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './GroupKillerPage.css';
 
+
+
 class GroupKillerDescription extends Component {
   render() {
     return (

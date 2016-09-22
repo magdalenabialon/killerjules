@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 
 import MenuBar from './MenuBar';
+import LandingSlider from './LandingSlider';
 import GroupKillerPage from './GroupKillerPage';
 import PrivateSessionsPage from './PrivateSessionsPage';
 import WorkoutsPage from './WorkoutsPage';
-import LandingSlider from './LandingSlider';
+import Timetable from './Timetable';
+import HealthyTreats from './HealthyTreats';
+import SocialMediaFooter from './SocialMediaFooter';
 
 
 class App extends Component {
@@ -20,6 +23,9 @@ class App extends Component {
          <GroupKillerPage />
          <PrivateSessionsPage />
          <WorkoutsPage />
+         <Timetable />
+         <HealthyTreats />
+         <SocialMediaFooter />
 
 
       </div>

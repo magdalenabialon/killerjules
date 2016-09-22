@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
 import './LandingSlider.css';
 
-// import KillerParkWorkout from './KillerParkWorkout';
 
 
-
-
-
-class PrivateSessionsPage extends Component {
+class LandingSlider extends Component {
   render() {
     return (
       
       <div className="LandingSliderWrapper">
           
-          <h1>here slider</h1>
-
+          <h1>here will go SLIDER</h1>
 
 
       </div>
@@ -23,7 +18,7 @@ class PrivateSessionsPage extends Component {
   }
 }
 
-export default PrivateSessionsPage;
+export default LandingSlider;
 
 
 

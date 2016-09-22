@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './PrivateSessionsPage.css';
 
+
+
 class PrivateSessionsDescription extends Component {
   render() {
     return (

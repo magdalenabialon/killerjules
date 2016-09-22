@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './PrivateSessionsPage.css';
 
+
+
 class PrivateSessionsGallery extends Component {
   render() {
     return (
