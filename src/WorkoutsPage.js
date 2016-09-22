@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './PrivateSessionsPage.css';
 
-import PrivateSessionsDescription from './PrivateSessionsDescription';
-import PrivateSessionsGallery from './PrivateSessionsGallery';
+import KillerParkWorkout from './KillerParkWorkout';
+import KillerGymWorkout from './KillerGymWorkout';
+import KillerHomeWorkout from './KillerHomeWorkout';
 
 
 
@@ -13,8 +14,9 @@ class PrivateSessionsPage extends Component {
       
       <div className="PrivateKillerWrapper">
           
-          <PrivateSessionsDescription />
-          <PrivateSessionsGallery />
+          <KillerParkWorkout />
+          <KillerGymWorkout />
+          <KillerHomeWorkout />
 
       </div>
     

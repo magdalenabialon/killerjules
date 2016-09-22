@@ -4,6 +4,7 @@ import './App.css';
 import MenuBar from './MenuBar';
 import GroupKillerPage from './GroupKillerPage';
 import PrivateSessionsPage from './PrivateSessionsPage';
+import WorkoutsPage from './WorkoutsPage';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
          <MenuBar />
          <GroupKillerPage />
          <PrivateSessionsPage />
+         <WorkoutsPage />
 
 
       </div>
