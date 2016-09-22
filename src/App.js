@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import GroupKillerPage from './GroupKillerPage';
+import PrivateSessionsPage from './PrivateSessionsPage';
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <h1>Killer Jules</h1>
          
          <GroupKillerPage />
+         <PrivateSessionsPage />
 
       </div>
     
