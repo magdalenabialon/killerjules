@@ -12,7 +12,7 @@ class PrivateSessionsPage extends Component {
   render() {
     return (
       
-      <div className="PrivateKillerWrapper">
+      <div className="WorkoutWrapper">
           
           <KillerParkWorkout />
           <KillerGymWorkout />

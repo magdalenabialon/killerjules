@@ -5,6 +5,7 @@ import MenuBar from './MenuBar';
 import GroupKillerPage from './GroupKillerPage';
 import PrivateSessionsPage from './PrivateSessionsPage';
 import WorkoutsPage from './WorkoutsPage';
+import LandingSlider from './LandingSlider';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
 
         <h1>Killer Jules</h1>
          <MenuBar />
+         <LandingSlider />
          <GroupKillerPage />
          <PrivateSessionsPage />
          <WorkoutsPage />
