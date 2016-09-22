@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import GroupKillerPage from './GroupKillerPage';
@@ -10,6 +9,8 @@ class App extends Component {
     return (
       
       <div className="App">
+
+        <h1>Killer Jules</h1>
          
          <GroupKillerPage />
 
