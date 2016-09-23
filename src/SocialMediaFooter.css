@@ -1,3 +1,25 @@
 .SocialMediaFooterWrapper {
+    /*height : 100px;*/
+    background-color: black;
     text-align: center;
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+
+
+.social-logo {
+    height : 30px;
+    padding: 8px 50px 0 50px;
+}
+
+#createdBy {
+    color: grey;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    padding: 0 0 5px 20px;
+
 }
