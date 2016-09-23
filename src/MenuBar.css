@@ -59,12 +59,12 @@
 }
 
 .ContactNav {
-  height: 4vh; 
+  height: 6vh; 
+  padding: 5vh 0 5vh 0;
   margin: 0;
-  padding-top: 1vh;
 }
 
 .Contact {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0;
 }

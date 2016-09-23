@@ -1,25 +1,25 @@
 .SocialMediaFooterWrapper {
-    /*height : 100px;*/
-    background-color: black;
+    height : 200px;
+    background-color: grey;
     text-align: center;
-    position: fixed;
+    padding-left: 35vh;
+    /*position: fixed;
     left:0px;
     bottom:0px;
-    width:100%;
+    width:100%;*/
 }
 
 
 .social-logo {
-    height : 30px;
-    padding: 8px 50px 0 50px;
+    height : 80px;
+    padding: 68px 50px 0 50px;
 }
 
 #createdBy {
-    color: grey;
-    display: inline-block;
+    color: darkgray;
+    /*display: inline-block;*/
     font-size: 15px;
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
-    padding: 0 0 5px 20px;
-
+    padding: 100px 0 5px 30px;
 }
