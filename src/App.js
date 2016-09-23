@@ -17,9 +17,8 @@ class App extends Component {
       
       <div className="App">
 
-        <h1>Killer Jules</h1>
-         <MenuBar />
          <LandingSlider />
+         <MenuBar />
          <GroupKillerPage />
          <PrivateSessionsPage />
          <WorkoutsPage />

@@ -7,6 +7,7 @@ import ImageGallery from 'react-image-gallery';
 
 class LandingSlider extends Component {
 
+
     handleImageLoad(event) {
       console.log('Image loaded ', event.target)
     }

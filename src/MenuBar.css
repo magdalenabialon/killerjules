@@ -1,7 +1,17 @@
-.MenuBarWrapper {
-  text-align: center;
+/*p {
+  display: inline-block;
+}*/
+
+.contact-logo {
+  height: 25px;
+  padding: 0 5px 0 5px;
 }
 
-li {
-    list-style-type: none;
+.MenuBarNav{
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 10%;
 }
