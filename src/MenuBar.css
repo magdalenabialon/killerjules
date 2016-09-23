@@ -4,7 +4,7 @@
 
 .contact-logo {
   height: 25px;
-  padding: 0 5px 0 5px;
+  padding: 10px 5px 0 5px;
 }
 
 .MenuBarNav{
@@ -12,6 +12,59 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100%;
-  width: 10%;
+  height: 100vh;
+  width: 15%;
+}
+
+.HomeNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: yellow;
+}
+
+.GroupNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: red;
+}
+
+.PrivateNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: white;
+}
+
+.WorkoutsNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: cyan;
+}
+
+.TimetableNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: yellowgreen;
+}
+
+.TreatsNav {
+  height: 8vh;
+  padding-top: 6vh;
+  margin: 0;
+  background-color: mediumpurple;
+}
+
+.ContactNav {
+  height: 4vh; 
+  margin: 0;
+  padding-top: 1vh;
+}
+
+.Contact {
+  display: inline-block;
+  margin: 0;
 }

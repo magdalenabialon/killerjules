@@ -12,16 +12,17 @@ class MenuBar extends React.Component {
         <StickyContainer >
           <Sticky className={"MenuBarNav"}>
 
-              <p>Home</p>
-              <p>Group Sessions</p>
-              <p>Private Sessions</p>
-              <p>Workouts</p>
-              <p>Timetable</p>
-              <p>Healthy Treats</p>
-              <p>Contact  
+              <p className = "HomeNav" >Home</p>
+              <p className = "GroupNav" >Group Sessions</p>
+              <p className = "PrivateNav" >Private Sessions</p>
+              <p className = "WorkoutsNav" >Workouts</p>
+              <p className = "TimetableNav" >Timetable</p>
+              <p className = "TreatsNav" >Healthy Treats</p>
+              <div className = "ContactNav">
+                <p className = "Contact">Contact </p>
                 <a href="https://www.facebook.com/killerjulesfitness/?fref=ts" ><img className = "contact-logo" src={require('./fb.png')} /></a>
                 <a href="https://www.instagram.com/killerjules_/" ><img className = "contact-logo" src ={require('./insta.png')} /></a>
-              </p>
+              </div>
 
 
           </Sticky>
