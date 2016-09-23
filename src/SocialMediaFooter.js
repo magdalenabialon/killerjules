@@ -9,8 +9,8 @@ class SocialMediaFooter extends Component {
       
       <div className="SocialMediaFooterWrapper">
           
-          <img src={require('./fb.png')} />
-          <img src={require('./insta.png')} />
+          <a href = "https://www.facebook.com/killerjulesfitness/?fref=ts" ><img src={require('./fb.png')} /></a>
+          <a href = "https://www.instagram.com/killerjules_/" ><img src={require('./insta.png')} /></a>
           <img src={require('./killerJulesLogo.gif')} />
 
 
