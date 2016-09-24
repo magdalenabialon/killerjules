@@ -1,5 +1,7 @@
 .PrivateKillerWrapper {
   text-align: center;
-  background-color: yellow;
-  height: 700px;
+  background-color: #1a1a1a;
+  height: 730px;
+  margin: 0;
+  padding: 0;
 }

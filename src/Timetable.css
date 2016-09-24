@@ -1,3 +1,7 @@
 .TimetableWrapper {
     text-align: center;
+    height: 730px;
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
 }

@@ -9,7 +9,7 @@ class PrivateSessionsDescription extends Component {
       
       <div>
           
-          <h3>Private Sessions with Killer</h3>
+          <h1>Private Sessions with Killer</h1>
           <p>Private sessions run for 50 minutes and are taloried specifically to what you would like to achieve.  Each session will contain exercisers to help you achieve your goals and also will suit any conditions physically and mentally; eg. we can do another exercise with the same amount of benefit that you will enjoy.  
 We can do measurements, look at posturel issues, set goals, before and after shots.
 The session will never be boring or repeatative and you will see weekly improvements.
