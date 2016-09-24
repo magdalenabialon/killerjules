@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  width: 85%;
+  width: 90%;
+  margin-right: 10%;
 }
 
 .App-logo {
@@ -25,6 +26,10 @@
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }

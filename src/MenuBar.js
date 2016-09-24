@@ -22,7 +22,6 @@ class MenuBar extends React.Component {
               <p className = "PrivateNav" >Private Sessions</p>
               <p className = "WorkoutsNav" >Workouts</p>
               <p className = "TimetableNav" >Timetable</p>
-              <p className = "TreatsNav" >Healthy Treats</p>
 
 
           </Sticky>
