@@ -12,7 +12,7 @@ class MenuBar extends React.Component {
         <StickyContainer >
           <Sticky className={"MenuBarNav"}>
 
-              <p className = "HomeNav" >Home</p>
+              <p className = "HomeNav" ><a href=".LandingSliderWrapper">Home</a></p>
               <div className = "ContactNav">
                 <p className = "Contact">Contact </p>
                 <a href="https://www.facebook.com/killerjulesfitness/?fref=ts" ><img className = "contact-logo" src={require('./fb.png')} /></a>

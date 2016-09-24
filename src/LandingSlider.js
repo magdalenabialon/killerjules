@@ -12,25 +12,6 @@ class LandingSlider extends Component {
       console.log('Image loaded ', event.target)
     }
 
-      constructor() {
-        super();
-        this.state = {
-          showIndex: false,
-          slideOnThumbnailHover: false,
-          showBullets: true,
-          infinite: true,
-          showThumbnails: true,
-          showFullscreenButton: true,
-          showGalleryFullscreenButton: true,
-          showPlayButton: false,
-          showGalleryPlayButton: false,
-          showNav: true,
-          slideInterval: 2000,
-          showVideo: {},
-          autoPlay: true,
-        };
-      }
-
   
   render() {
 
@@ -67,8 +48,14 @@ class LandingSlider extends Component {
                 <ImageGallery
                   ref={i => this._imageGallery = i}
                   items={images}
+                  autoPlay={true}
                   slideInterval={2500}
-                  onImageLoad={this.handleImageLoad}/>
+                  onImageLoad={this.handleImageLoad}
+                  showNav={false}
+                  showFullscreenButton={false}
+                  showBullets={true}
+                  showGalleryPlayButton={false}
+                />
 
 
 

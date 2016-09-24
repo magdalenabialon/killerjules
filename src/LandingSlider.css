@@ -2,5 +2,16 @@
 
 .LandingSliderWrapper {
     text-align: center;
-    /*height: 100px;*/
+}
+
+ImageGallery {
+    height: 200px;
+}
+
+.image-gallery-thumbnails {
+    display: none;
+}
+
+.image-gallery-slide {
+    height: 730px;
 }
