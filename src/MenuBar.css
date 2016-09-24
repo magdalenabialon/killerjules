@@ -102,7 +102,6 @@
   border: 1px solid white;
   /*font-family: 'Quicksand', sans-serif;*/
   /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Dancing Script', cursive;
   color: white;
 }
 
@@ -114,4 +113,5 @@
 .Contact {
   /*display: inline-block;*/
   margin: 0;
+  font-family: 'Dancing Script', cursive;
 }

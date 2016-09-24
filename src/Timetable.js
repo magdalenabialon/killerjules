@@ -13,7 +13,7 @@ class Timetable extends Component {
       
       <div className="TimetableWrapper">
           
-          <h1>here will go week timetable</h1>
+          <h1>TIMETABLE</h1>
 
 
 

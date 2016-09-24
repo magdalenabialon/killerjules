@@ -6,7 +6,7 @@ import './GroupKillerPage.css';
 class GroupKillerGallery extends Component {
   render() {
     return (
-          <img src="http://www.ezygym.com.au/MelbFreeZoneMap.gif"/>
+          <img src="http://thinkpropertyco.com/wp-content/uploads/map_prahran.jpg"/>
     );
   }
 }

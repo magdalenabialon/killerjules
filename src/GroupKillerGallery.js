@@ -6,7 +6,7 @@ import './GroupKillerPage.css';
 class GroupKillerGallery extends Component {
   render() {
     return (
-          <img src="https://static.wixstatic.com/media/19c007_977764e4e3f647c1876a9a8d2a76fa44.jpg/v1/fill/w_412,h_551,al_c,q_90,usm_0.66_1.00_0.01/19c007_977764e4e3f647c1876a9a8d2a76fa44.jpg"/>
+          <img src="https://static.wixstatic.com/media/19c007_6bd37bf9b5a1446fb1568ff3a3c05489.jpg/v1/fill/w_207,h_279,al_c,q_80,usm_0.66_1.00_0.01/19c007_6bd37bf9b5a1446fb1568ff3a3c05489.jpg"/>
     );
   }
 }
