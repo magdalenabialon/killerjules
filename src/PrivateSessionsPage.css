@@ -5,3 +5,37 @@
   margin: 0;
   padding: 0;
 }
+
+.PrivateDescr {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  margin-right: 10%;
+  padding-top: 3%;
+  float: right;
+  /*background-color: white;*/
+}
+
+.PrivateGalleryDiv {
+  display: inline-block;
+  width: 43%;
+  /*height: 50%;*/
+  /*background-color: #d3d3d3;*/
+  padding: 1% 5% 0 0;
+  margin: 0 0 10% 0;
+  /*border: 2px solid white;*/
+}
+
+.pGallery {
+  width: 30%;
+  /*height: 30%;*/
+  /*margin-left: 1%;*/
+  /*margin-bottom: 1%;*/
+  margin: 1%;
+}
+
+.pGallery:hover {
+  opacity: 0.9;
+  border: 1px solid white;
+  /*width: 100%;*/
+}

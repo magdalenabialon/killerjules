@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './PrivateSessionsPage.css';
 
-import PrivateSessionsDescription from './PrivateSessionsDescription';
 import PrivateSessionsGallery from './PrivateSessionsGallery';
+import PrivateSessionsDescription from './PrivateSessionsDescription';
 
 
 
@@ -12,9 +12,11 @@ class PrivateSessionsPage extends Component {
     return (
       
       <div className="PrivateKillerWrapper">
+
+          <h1>PRIVATE SESSIONS WITH KILLER</h1>
           
-          <PrivateSessionsDescription />
           <PrivateSessionsGallery />
+          <PrivateSessionsDescription />
 
       </div>
     
