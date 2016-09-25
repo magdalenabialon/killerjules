@@ -1,8 +1,53 @@
 .GroupkillerWrapper {
-  text-align: center;
-  height: 830px;
-  background-color: #404040;
+  /*text-align: center;*/
+  height: 1000px;
+  background-color: #E2CFEA;
   margin: 0;
   padding: 0;
+  padding-right: 5%;
 }
 
+.GroupDescr {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 15%;
+  padding-top: 5%;
+  float: left;
+  /*background-color: white;*/
+}
+
+span {
+  font-size: 2em;
+}
+
+.GroupGalleryDiv {
+  display: inline-block;
+  width: 43%;
+  /*height: 50%;*/
+  /*background-color: #d3d3d3;*/
+  padding: 1% 0 1% 0;
+  margin: 0 0 10% 10%;
+  /*border: 2px solid white;*/
+}
+
+.gGallery {
+  width: 30%;
+  /*height: 30%;*/
+  /*margin-left: 1%;*/
+  /*margin-bottom: 1%;*/
+  margin: 1%;
+}
+
+.gGallery:hover {
+  opacity: 0.9;
+  border: 1px solid white;
+  /*width: 100%;*/
+}
+
+.map {
+  width: 95%;
+  height: 200px;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}

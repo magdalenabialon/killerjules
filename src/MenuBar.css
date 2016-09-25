@@ -9,7 +9,7 @@
 }
 
 .MenuBarNav {
-  background-color: darkorange;
+  /*background-color: darkorange;*/
   position: fixed;
   top: 0;
   right: 0%;
@@ -30,19 +30,21 @@
 
 
 .HomeNav, .GroupNav, .PrivateNav, .WorkoutsNav, .TimetableNav, .TreatsNav {
-  border: 1px solid white;
-  height: 10.5vh;
+  /*border: 1px solid white;*/
+  height: 10.6vh;
   padding-top: 6vh;
   margin: 0;
     /*font-family: 'Quicksand', sans-serif;*/
   /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Dancing Script', cursive;
   color: white;
-
+  font-size: 1.2em;
 }
 
 .HomeNav {
-  background-color: yellow;
+  /*background-color: yellow;*/
+  background-color: #ffff4c;
+  border: 1px solid white;
 }
 
 .HomeNav:hover {
@@ -51,7 +53,10 @@
 }
 
 .GroupNav {
-  background-color: deeppink;
+  /*background-color: deeppink;*/
+  background-color: #5EFC8D;
+  border: 1px solid white;
+
 }
 
 .GroupNav:hover {
@@ -60,7 +65,10 @@
 }
 
 .PrivateNav {
-  background-color: dodgerblue;
+  /*background-color: dodgerblue;*/
+  background-color: #8EF9F3;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
 
 .PrivateNav:hover {
@@ -69,7 +77,9 @@
 }
 
 .WorkoutsNav {
-  background-color: cyan;
+  /*background-color: cyan;*/
+  background-color: #6153CC;
+  border: 1px solid white;
 }
 
 .WorkoutsNav:hover {
@@ -78,7 +88,10 @@
 }
 
 .TimetableNav {
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
+  background-color: #963484;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
 }
 
 .TimetableNav:hover {
@@ -99,7 +112,11 @@
   height: 6vh; 
   padding: 7vh 0 3vh 0;
   margin: 0;
-  border: 1px solid white;
+  /*background-color: darkorange;*/
+  background-color: #1BE7FF;
+  /*border: 1px solid white;*/
+  border-right: 1px solid white;
+  border-left: 1px solid white;
   /*font-family: 'Quicksand', sans-serif;*/
   /*font-family: 'Roboto', sans-serif;*/
   color: white;
@@ -114,4 +131,5 @@
   /*display: inline-block;*/
   margin: 0;
   font-family: 'Dancing Script', cursive;
+
 }

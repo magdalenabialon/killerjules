@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   width: 90%;
-  margin-right: 10%;
+  padding-right: 3%;
 }
 
 .App-logo {
@@ -27,7 +27,7 @@
 
 h1, h3 {
   margin: 0;
-  padding: 0;
+  padding: 3%;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -38,3 +38,6 @@ a {
 p {
   font-family: 'Quicksand', sans-serif;
 }
+
+/*#E2CFEA #B5B1B2 #2D2A32 #7A7978 #C6D8FF*/
+/*https://coolors.co/f4e409-1be7ff-5efc8d-4464ad-6153cc*/

@@ -6,7 +6,24 @@ import './GroupKillerPage.css';
 class GroupKillerGallery extends Component {
   render() {
     return (
-          <img src="https://static.wixstatic.com/media/19c007_6bd37bf9b5a1446fb1568ff3a3c05489.jpg/v1/fill/w_207,h_279,al_c,q_80,usm_0.66_1.00_0.01/19c007_6bd37bf9b5a1446fb1568ff3a3c05489.jpg"/>
+
+       <div className="GroupGalleryDiv" >
+
+          <img className = "gGallery" src={require('./gallery/g1.png')} />
+          <img className = "gGallery" src={require('./gallery/g4.png')} />
+          <img className = "gGallery" src={require('./gallery/g3.png')} />
+
+          <img className = "gGallery" src={require('./gallery/g2.png')} />
+          <img className = "gGallery" src={require('./gallery/g5.png')} />
+          <img className = "gGallery" src={require('./gallery/g6.png')} />
+
+          <img className = "gGallery" src={require('./gallery/g7.png')} />
+          <img className = "gGallery" src={require('./gallery/g8.png')} />
+          <img className = "gGallery" src={require('./gallery/g9.png')} />
+
+
+      </div>
+
     );
   }
 }

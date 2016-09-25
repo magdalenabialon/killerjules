@@ -6,7 +6,8 @@ import './GroupKillerPage.css';
 class GroupKillerGallery extends Component {
   render() {
     return (
-          <img src="http://thinkpropertyco.com/wp-content/uploads/map_prahran.jpg"/>
+
+          <img className = "map" src={require('./ImageGallery/map_prahran.jpg')} />
     );
   }
 }
