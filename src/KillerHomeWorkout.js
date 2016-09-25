@@ -7,30 +7,33 @@ class KillerHomeWorkout extends Component {
   render() {
     return (
       
-      <div>
+      <div className="HomeWorkout">
           
-          <h3>KILLER HOME WORKOUT</h3>
-            <p>
-                You need: mat and some tunes.
-                ​
-                The below workout is  a 50mins - 1hour.
-                ​
-                SET 1
-                1min x Bicycles
-                1min x burpees
-                1min x explosive lunges
-                1min x pushups
-                1min x cammandos
-                1min x sumo squat jumps
-                1min x MC's
-                1min x jump squats
-                1min x cruches
-                1min x bear crawl with pushup
-                REST - 1 min
-                
-                Repeat as many sets as you want, depending on how long you want your workout to go for.  I reccomend you do it at least 3 times.
+              <h3>KILLER HOME WORKOUT</h3>
+            
+                <h4>🕑 The below workout is  a 50mins - 1hour</h4>
 
-            </p>
+                <h4>You need: mat and some tunes.</h4>
+                ​
+                <h5>SET 1</h5>
+                <h5></h5>
+                <h6>▪ 1min x Bicycles</h6>
+                <h6>▪ 1min x burpees</h6>
+                <h6>▪ 1min x explosive lunges</h6>
+                <h6>▪ 1min x pushups</h6>
+                <h6>▪  1min x cammandos</h6>
+                <h6>▪  1min x sumo squat jumps</h6>
+                <h6>▪  1min x MC's</h6>
+                <h6>▪ 1min x jump squats</h6>
+                <h6>▪ 1min x cruches</h6>
+                <h6>▪   1min x bear crawl with pushup</h6>
+                <h5>REST - 1 min</h5>
+                <h5></h5>
+                <h5></h5>
+                
+               <h4>↪ Repeat as many sets as you want, depending on how long you want your workout to go for.  I reccomend you do it at least 3 times.</h4>
+
+
 
       </div>
     
