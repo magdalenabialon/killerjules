@@ -14,7 +14,7 @@ class PrivateSessionsPage extends Component {
       
       <div className="WorkoutWrapper">
           
-          <h1>WORKOUTS</h1>
+          <h1 id="workoutsHeading">WORKOUTS</h1>
           <KillerParkWorkout />
           <KillerGymWorkout />
           <KillerHomeWorkout />

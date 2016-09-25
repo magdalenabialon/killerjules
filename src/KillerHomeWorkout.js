@@ -17,16 +17,16 @@ class KillerHomeWorkout extends Component {
                 ​
                 <h5>SET 1</h5>
                 <h5></h5>
-                <h6>▪ 1min x Bicycles</h6>
-                <h6>▪ 1min x burpees</h6>
-                <h6>▪ 1min x explosive lunges</h6>
-                <h6>▪ 1min x pushups</h6>
-                <h6>▪  1min x cammandos</h6>
-                <h6>▪  1min x sumo squat jumps</h6>
-                <h6>▪  1min x MC's</h6>
-                <h6>▪ 1min x jump squats</h6>
-                <h6>▪ 1min x cruches</h6>
-                <h6>▪   1min x bear crawl with pushup</h6>
+                <h6>▫ 1min x bicycles</h6>
+                <h6>▫ 1min x burpees</h6>
+                <h6>▫ 1min x explosive lunges</h6>
+                <h6>▫ 1min x pushups</h6>
+                <h6>▫  1min x cammandos</h6>
+                <h6>▫  1min x sumo squat jumps</h6>
+                <h6>▫  1min x MC's</h6>
+                <h6>▫ 1min x jump squats</h6>
+                <h6>▫ 1min x cruches</h6>
+                <h6>▫   1min x bear crawl with pushup</h6>
                 <h5>REST - 1 min</h5>
                 <h5></h5>
                 <h5></h5>

@@ -1,7 +1,39 @@
 .TimetableWrapper {
     text-align: center;
-    height: 730px;
-    margin: 0;
-    padding: 0;
+    height: 830px;
+    /*margin: 0;
+    padding: 0;*/
     background-color: #7A7978;
 }
+
+#calendar {
+    text-align: center;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    padding-bottom: 3px;;
+    /*background: url('./src/Graphic.jpg');*/
+     background-image: url('./gallery/Graphic.jpg');
+     background-repeat: no-repeat;
+}
+
+.CalendaRow {
+    display: inline-block;
+    margin-top: 5%;
+    width: 13%;
+    border-left: 1px solid black;
+}
+
+.row {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+
+}
+
+.rowS {
+    padding-bottom: 55px;
+    font-size: 0.9em;
+}
+
