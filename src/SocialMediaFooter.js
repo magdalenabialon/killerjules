@@ -9,12 +9,12 @@ class SocialMediaFooter extends Component {
       
       <div className="SocialMediaFooterWrapper">
 
-          <a href = "https://www.facebook.com/killerjulesfitness/?fref=ts" ><img className = "social-logo" src={require('./fb.png')} /></a>
-          <a href = "https://www.instagram.com/killerjules_/" ><img className = "social-logo" src ={require('./insta.png')} /></a>
-          <a href = "https://www.mindbodyonline.com/get-the-app" ><img className = "social-logo" src={require('./mb.jpg')} /></a>
+          <a target="_blank" href = "https://www.facebook.com/killerjulesfitness/?fref=ts" ><img className = "social-logo" src={require('./fb.png')} /></a>
+          <a target="_blank" href = "https://www.instagram.com/killerjules_/" ><img className = "social-logo" src ={require('./insta.png')} /></a>
+          <a target="_blank" href = "https://www.mindbodyonline.com/get-the-app" ><img className = "social-logo" src={require('./mb.jpg')} /></a>
           <img className = "social-logo" src={require('./killerJulesLogo.gif')} />
 
-          <a href = "https://github.com/magdalenabialon" id = "createdBy" >created by Magdalena Bialon</a>
+          <a target="_blank" href = "https://github.com/magdalenabialon" id = "createdBy" >created by Magdalena Bialon</a>
 
       </div>
     
