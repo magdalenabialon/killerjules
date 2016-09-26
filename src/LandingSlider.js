@@ -54,7 +54,7 @@ class LandingSlider extends Component {
 
     return (
       
-      <div className="LandingSliderWrapper">
+      <div id="home" className="LandingSliderWrapper">
           
                 <ImageGallery
                   ref={i => this._imageGallery = i}
