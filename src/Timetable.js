@@ -35,7 +35,7 @@ class Timetable extends Component {
             <div className="CalendaRow">
               <h3 className="row">MON</h3>
               <h4 className="rowS">Group Killer</h4>
-              <h4 className="rowS">Group Killer</h4>
+              <h4 className="rowS">.</h4>
               <h4 className="rowS">.</h4>
               <h4 className="rowS">Dynamic Fitness</h4>
               <h4 className="rowS">Dynamic Fitness</h4>

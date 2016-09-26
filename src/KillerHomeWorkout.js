@@ -11,7 +11,7 @@ class KillerHomeWorkout extends Component {
           
               <h3>KILLER HOME WORKOUT</h3>
             
-                <h4>🕑 The below workout is  a 50mins - 1hour</h4>
+                <h4>🕑 The below workout is  a 50mins - 1 hour</h4>
 
                 <h4>You need: mat and some tunes.</h4>
                 ​
