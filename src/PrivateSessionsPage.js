@@ -11,7 +11,7 @@ class PrivateSessionsPage extends Component {
   render() {
     return (
       
-      <div className="PrivateKillerWrapper">
+      <div id="privateSessions" className="PrivateKillerWrapper">
 
           <h1>PRIVATE SESSIONS WITH KILLER</h1>
           

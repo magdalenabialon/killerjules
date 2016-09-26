@@ -12,7 +12,7 @@ class GroupKillerPage extends Component {
   render() {
     return (
       
-      <div className="GroupkillerWrapper">
+      <div id="groupSessions" className="GroupkillerWrapper">
 
           <h1>GROUP KILLER SESSIONS</h1>    
           <GroupKillerDescription />

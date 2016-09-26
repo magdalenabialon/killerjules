@@ -7,7 +7,7 @@ class SocialMediaFooter extends Component {
   render() {
     return (
       
-      <div className="SocialMediaFooterWrapper">
+      <div id="contact" className="SocialMediaFooterWrapper">
 
           <a target="_blank" href = "https://www.facebook.com/killerjulesfitness/?fref=ts" ><img className = "social-logo" src={require('./fb.png')} /></a>
           <a target="_blank" href = "https://www.instagram.com/killerjules_/" ><img className = "social-logo" src ={require('./insta.png')} /></a>
