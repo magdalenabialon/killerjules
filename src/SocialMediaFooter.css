@@ -1,5 +1,5 @@
 .SocialMediaFooterWrapper {
-    height: 400px;;
+    height: 400px;
     background-color: #2D2A32;
     text-align: center;
     /*padding-left: 20%;*/
@@ -29,3 +29,21 @@
     /*padding: 0 0 2% 0; */
     bottom: 2%;
 }
+
+
+@media (max-width:1200px) {
+
+    .SocialMediaFooterWrapper {
+        height: 300px;
+    }
+}
+
+
+
+@media (max-width:649px) {
+
+    .SocialMediaFooterWrapper {
+        height: 200px;
+    }
+
+ }

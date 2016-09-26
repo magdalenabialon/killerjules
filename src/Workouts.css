@@ -47,7 +47,7 @@ h5 {
     padding: 0;
     padding-top: 1.5em;;
     margin: 0;
-   font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h4 {
@@ -61,3 +61,86 @@ h4 {
 #workoutsHeading {
     padding-bottom: 1%;
 }
+
+
+
+
+@media (max-width:1200px) {
+
+    h4, h5, h6 {
+        padding: 0 2em 1em 2em;
+    }
+
+    .WorkoutWrapper {
+        height: 2250px;
+    }
+
+    .ParkWorkout {
+        display: block;
+        width: 70%;
+        padding: 0 1em 1em 1em;
+        margin-right: 1.5%;
+        margin-left: 12%;
+        padding-bottom: 5%;
+        text-align: justify;
+        border: 1px solid white;
+    }
+
+    .GymWorkout {
+        display: block;
+        width: 70%;
+        text-align: justify;
+        margin-left: 12%;
+        padding: 0 1em 1em 1em;
+        border: 1px solid white;
+        margin-bottom: 3%;
+    }
+
+    .HomeWorkout {
+        display: block;
+        width: 70%;
+        text-align: justify;
+        padding: 0 1em 1em 1em;
+        border: 1px solid white;
+        margin-left: 12%;
+        margin-bottom: 5%;
+    }
+
+ }
+
+
+@media (max-width:649px) {
+
+    h4, h5, h6 {
+        padding: 0;
+    }
+
+    .WorkoutWrapper {
+        height: 1550px;
+    }
+
+    .ParkWorkout {
+        display: block;
+        width: 85%;
+        margin-right: 1.5%;
+        margin-left: 3%;
+        text-align: justify;
+        padding-bottom: 5%;
+    }
+
+    .GymWorkout {
+        display: block;
+        width: 85%;
+        text-align: justify;
+        margin-left: 3%;
+        padding-bottom: 5%;
+    }
+
+    .HomeWorkout {
+        display: block;
+        width: 85%;
+        text-align: justify;
+        padding-bottom: 5%;
+        margin-left: 3%;
+    }
+ }

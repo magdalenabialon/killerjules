@@ -39,3 +39,39 @@
   border: 1px solid white;
   /*width: 100%;*/
 }
+
+
+
+
+@media (max-width:899px) {
+
+  /*.PrivateKillerWrapper {
+    height: 850px;
+  }*/
+
+  .PrivateGalleryDiv {
+      padding-top: 5%;
+      margin: 0 0 5% 10%;
+  }
+
+  .PrivateDescr  {
+    font-size: 0.8em;
+  }
+
+ }
+
+
+@media (max-width:649px) {
+
+  .PrivateKillerWrapper {
+    height: 580px;
+  }
+
+  .PrivateDescr  {
+    font-size: 0.5em;
+  }
+
+  .PrivateGalleryDiv {
+      padding-top: 5%;
+  }
+ }
