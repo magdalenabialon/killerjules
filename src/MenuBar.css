@@ -120,6 +120,8 @@
   /*font-family: 'Quicksand', sans-serif;*/
   /*font-family: 'Roboto', sans-serif;*/
   color: white;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
 }
 
 .ContactNav:hover {
@@ -127,9 +129,3 @@
   color: grey;
 }
 
-.Contact {
-  /*display: inline-block;*/
-  margin: 0;
-  font-family: 'Dancing Script', cursive;
-
-}
