@@ -9,6 +9,8 @@ import WorkoutsPage from './WorkoutsPage';
 import Timetable from './Timetable';
 import HealthyTreats from './HealthyTreats';
 import SocialMediaFooter from './SocialMediaFooter';
+import smoothScroll from'smoothscroll';
+
 
 
 class App extends Component {
