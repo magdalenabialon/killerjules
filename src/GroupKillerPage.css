@@ -45,13 +45,21 @@ span {
   /*width: 100%;*/
 }
 
-.map {
-  width: 95%;
+#map {
+  width: 90%;
   height: 260px;
-  margin-left: 5%;
-  padding-bottom: 5%;
+  display: inline-block;
+  padding-left: 6%;
 }
 
+.mapboxgl-canvas {
+  position: inherit !important;
+}
+
+/*.mapboxgl-canvas-container {
+  padding: 0;
+  margin: 0;
+}*/
 
 
 @media (max-width:899px) {
@@ -69,6 +77,10 @@ span {
     font-size: 0.8em;
   }
 
+  #map {
+    height: 200px;
+  }
+
  }
 
 
@@ -82,8 +94,8 @@ span {
     font-size: 0.6em;
   }
 
-  .map {
-    height: 140px;
+  #map {
+    height: 120px;
   }
 
   .GroupGalleryDiv {
