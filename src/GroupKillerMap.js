@@ -29,15 +29,14 @@ class GroupKillerMap extends Component {
               style="mapbox://styles/mapbox/outdoors-v9"
               accessToken={accessToken}
               center={this.state.center}
-              scrollEnabled="false"
-              scrollZOOM="false"
+              scrollZoom="false"
               movingMethod="jumpTo"
               containerStyle={{ height: "100%", width: "100%" }}>
 
 
               <ZoomControl
                 zoomDiff={1}
-                scrollZOOM="false"
+                scrollZoom="false"
               />
 
             </ReactMapboxGl>
@@ -55,3 +54,4 @@ export default GroupKillerMap;
 
 
           
+//pk.eyJ1IjoibWFnZGFsZW5hYmlhbG9uIiwiYSI6ImNpc2p3cnUwczAycXcyem9jYXpzZWZ6eW4ifQ.RWDUb9U9vdUlNuKcPGJDhg
