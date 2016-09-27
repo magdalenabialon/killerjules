@@ -25,17 +25,25 @@ class GroupKillerMap extends Component {
 
           <div id="map">
 
-            <ReactMapboxGl id="map"
+            <ReactMapboxGl
               style="mapbox://styles/mapbox/outdoors-v9"
               accessToken={accessToken}
               center={this.state.center}
+              scrollEnabled="false"
+              scrollZOOM="false"
               movingMethod="jumpTo"
               containerStyle={{ height: "100%", width: "100%" }}>
+
+
+              <ZoomControl
+                zoomDiff={1}
+                scrollZOOM="false"
+              />
+
             </ReactMapboxGl>
 
+
           </div>
-
-
 
 
     );
@@ -46,8 +54,4 @@ class GroupKillerMap extends Component {
 export default GroupKillerMap;
 
 
-          // <MapGL id="map" width={400} height={400} latitude={-37.849719} longitude={144.995162}
-          //   zoom={8} onChangeViewport={(viewport) => {
-          //     const {latitude, longitude, zoom} = viewport;
-          //   }}
-          // />
+          
