@@ -1,0 +1,20 @@
+
+{
+    type: "FeatureCollection",
+    features: [
+        {
+            type: "Feature",
+            properties: {
+                place: "Killer Julles Gym",
+                },
+                geometry: {
+                type: "Point",
+                coordinates: [
+                    144.995162, 
+                    -37.849719
+                ]
+            }
+     }
+    ]
+}
+
