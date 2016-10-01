@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './GroupKillerPage.css';
+import logo from './killerJulesLogo.gif';
 import ReactMapboxGl, { GeoJSONLayer, Layer, Feature, ZoomControl } from "react-mapbox-gl";
 
-const {geojson} =
+var geojson =
 {
     type: "FeatureCollection",
     features: [
@@ -10,15 +11,17 @@ const {geojson} =
             type: "Feature",
             properties: {
                 place: "Killer Julles Gym",
+                iconSize: [20, 20],
+                iconImage: logo,
                 },
-                geometry: {
+              geometry: {
                 type: "Point",
                 coordinates: [
-                    144.995162, 
-                    -37.849719
+                    144.995029,
+                    -37.850660
                 ]
             }
-     }
+        }
     ]
 }
 
@@ -44,7 +47,9 @@ class GroupKillerMap extends Component {
       render() {
         return (
 
+         
           <div id="map">
+           <h5 id="address">Meister Athlete 🏆.  22 Cecil Pl, Prahran</h5>
 
             <ReactMapboxGl
               style="mapbox://styles/mapbox/outdoors-v9"
@@ -60,8 +65,11 @@ class GroupKillerMap extends Component {
                 scrollZoom="false"
               />
 
-              <GeoJSONLayer
+              <GeoJSONLayer id="marker"
                 data={geojson}
+                type="symbol"
+                // layout={{ "icon-image": "marker-15" }}
+                
               />
             
                   
